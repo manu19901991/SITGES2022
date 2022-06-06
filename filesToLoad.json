@@ -1,6 +1,6 @@
 {
   "title": "STM32 GPDMA",
-  "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_gpdma/master",
+  "githubLoc": "https://raw.githubusercontent.com/manu19901991/SITGES2022/master",
   "options": {
     "allowMenu": true,
     "allowTagSelect": false
