@@ -1,210 +1,228 @@
 {
-  "title": "STM32U5 Workshop",
-  "githubLoc": "https://raw.githubusercontent.com/manu19901991/SITGES2022/master/",
+  "title": "STM32 GPDMA",
+  "githubLoc": "https://raw.githubusercontent.com/RRISTM/stm32_gpdma/master",
   "options": {
     "allowMenu": true,
     "allowTagSelect": false
   },
   "filesToLoadArr": [
-   
     {
-      "name": "Theory",
-      "path": "/lpbam/theory",
-      "file": "linked list.md"
+      "name": "1. GPDMA",
+      "path": "/basic_config",
+      "file": "gpdma.md"
     },
     {
-      "name": "Theory",
-      "path": "/lpbam/theory",
-      "file": "theory.md"
+      "name": "2. GPDMA M2M",
+      "path": "/basic_config",
+      "file": "simple_m2m.md"
     },
     {
-      "name": "Theory",
-      "path": "/lpbam/theory",
-      "file": "ulpmark.md"
+      "name": "3. GPDMA priority",
+      "path": "/basic_config",
+      "file": "gpdma_priority_bus.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step1",
-      "file": "handson0.md"
+      "name": "4. GPDMA data exchange",
+      "path": "/basic_config",
+      "file": "m2m_data_exchange.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step1",
-      "file": "handson.md"
+      "name": "5. GPDMA data alignment",
+      "path": "/basic_config",
+      "file": "m2m_data_alignment.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step1",
-      "file": "handson2.md"
+      "name": "6. GPDMA triggers",
+      "path": "/basic_config",
+      "file": "channel_triggers.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step2",
-      "file": "handson3.md"
+      "name": "7. GPDMA burst",
+      "path": "/basic_config",
+      "file": "m2m_burst_trigger.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step3",
-      "file": "handson4.md"
+      "name": "8. GPDMA block",
+      "path": "/basic_config",
+      "file": "block_repeted_trigger.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step4",
-      "file": "handson5.md"
+      "name": "9. GPDMA events",
+      "path": "/basic_config",
+      "file": "channel_events.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step5",
-      "file": "handson6.md"
+      "name": "10. GPDMA linked list",
+      "path": "/basic_config",
+      "file": "linked_list.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step6",
-      "file": "handson7.md"
+      "name": "11. GPDMA linked list example",
+      "path": "/basic_config",
+      "file": "lli_example.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step7",
-      "file": "handson8.md"
+      "name": "12. GPDMA LLI description",
+      "path": "/basic_config",
+      "file": "lli_hal_description.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step8",
-      "file": "handson9.md"
+      "name": "13. LPDMA ADC LPUART",
+      "path": "/basic_config",
+      "file": "adc_lpdma_uart_example.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step9",
-      "file": "handson10.md"
+      "name": "M2M example",
+      "path": "/basic_config",
+      "file": "m2m_simple_example.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step10",
-      "file": "handson11.md"
+      "name": "CubeIDE debug",
+      "path": "/utility_config",
+      "file": "ide_debug.md"
     },
     {
-      "name": " Exercise",
-      "path": "/lpbam/handson/step11",
-      "file": "handson12.md"
+      "name": "CubeIDE import",
+      "path": "/utility_config",
+      "file": "ide_import_project.md"
+    },
+    {
+      "name": "CubeMX create project",
+      "path": "/utility_config",
+      "file": "mx_create_project.md"
+    },
+    {
+      "name": "CubeMX generate code",
+      "path": "/utility_config",
+      "file": "mx_generate_code.md"
+    },
+    {
+      "name": "Basic UART Tx DMA example",
+      "path": "/basic_config",
+      "file": "basic_tx_example.md"
+    },
+    {
+      "name": "Basic UART Rx DMA example",
+      "path": "/basic_config",
+      "file": "basic_rx_circular.md"
+    },
+    {
+      "path": "/features/features_priorities",
+      "file": "theory_port_priorities.md"
+    },
+    {
+      "path": "/features/features_requests",
+      "file": "theory_requests.md"
     }
+
   ],
-  
+  "menuStructure": [
+    {
+      "name": "GPDMA basic usage",
+      "type": "Folder",
+      "children": [
         {
-          "type": "Folder",
-          "name": "3. LPBAM",
-          "children": [
-            {
-              "type": "Folder",
-              "name": "LPBAM Theory",
-              "children": [
-                {
-                  "type": "File",
-                  "name": "Overview",
-                  "path": "lpbam/theory",
-                  "file": "theory.md"
-                },
-                {
-                  "type": "File",
-                  "name": "Linked list summary",
-                  "path": "lpbam/theory",
-                  "file": "linked list.md"
-                },
-                {
-                  "type": "File",
-                  "name": " EEMBC ULPMark",
-                  "path": "lpbam/theory",
-                  "file": "ulpmark.md"
-                }
-              ]
-            },
-            {
-              "type": "Folder",
-              "name": "LPBAM Handson",
-              "children": [
-                {
-                  "type": "File",
-                  "name": "1.Hands-on Overview",
-                  "path": "lpbam/handson/step1",
-                  "file": "handson0.md"
-                },
-                {
-                  "type": "File",
-                  "name": "2.MCU Selection",
-                  "path": "lpbam/handson/step1",
-                  "file": "handson.md"
-                },
-                {
-                  "type": "File",
-                  "name": "3.Peripherals configuration CubeMx",
-                  "path": "lpbam/handson/step1",
-                  "file": "handson2.md"
-                },
-                {
-                  "type": "File",
-                  "name": "4.LPBAM Scenario & Configuration",
-                  "path": "lpbam/handson/step2",
-                  "file": "handson3.md"
-                },
-                {
-                  "type": "File",
-                  "name": "5.Cube IDE",
-                  "path": "lpbam/handson/step3",
-                  "file": "handson4.md"
-                },
-                {
-                  "type": "File",
-                  "name": "6.Debug",
-                  "path": "lpbam/handson/step4",
-                  "file": "handson5.md"
-                },
-                {
-                  "type": "File",
-                  "name": "7.Generated code",
-                  "path": "lpbam/handson/step9",
-                  "file": "handson10.md"
-                },
-                {
-                  "type": "File",
-                  "name": "8.Power consumption",
-                  "path": "lpbam/handson/step5",
-                  "file": "handson6.md"
-                },
-                {
-                  "type": "File",
-                  "name": "9.Benchmark",
-                  "path": "lpbam/handson/step6",
-                  "file": "handson7.md"
-                },
-                {
-                  "type": "File",
-                  "name": "10.Results discussion",
-                  "path": "lpbam/handson/step7",
-                  "file": "handson8.md"
-                },
-                {
-                  "type": "File",
-                  "name": "11.Wrap up",
-                  "path": "lpbam/handson/step8",
-                  "file": "handson9.md"
-                },
-                {
-                  "type": "File",
-                  "name": "12.FAQ",
-                  "path": "lpbam/handson/step10",
-                  "file": "handson11.md"
-                },
-                {
-                  "type": "File",
-                  "name": "13.References",
-                  "path": "lpbam/handson/step11",
-                  "file": "handson12.md"
-                }
-              ]
-            }
-          ]
+          "name": "Memory to memory",
+          "type": "File",
+          "file": "simple_m2m.md"
         },
-       
+        {
+          "name": "M2M example",
+          "type": "File",
+          "file": "m2m_simple_example.md"
+        },
+        {
+          "name": "Basic UART Tx DMA example",
+          "type": "File",
+          "file": "basic_tx_example.md"
+        },
+        {
+          "name": "Basic UART Rx DMA example",
+          "type": "File",
+          "file": "basic_rx_circular.md"
+        }
       ]
+    },
+    {
+      "name": "GPDMA features",
+      "type": "Folder",
+      "children": [
+        {
+          "name": "Ports & Priorities",
+          "type": "File",
+          "file": "theory_port_priorities.md"
+        },
+        {
+          "name": "Transfer Requests",
+          "type": "File",
+          "file": "theory_requests.md"
+        }
+      ]
+    },
+    {
+      "name": "1. GPDMA",
+      "type": "File",
+      "file": "gpdma.md"
+    },
+    {
+      "name": "2. GPDMA M2M",
+      "type": "File",
+      "file": "simple_m2m.md"
+    },
+    {
+      "name": "3. GPDMA priority",
+      "type": "File",
+      "file": "gpdma_priority_bus.md"
+    },
+    {
+      "name": "4. GPDMA data exchange",
+      "type": "File",
+      "file": "m2m_data_exchange.md"
+    },
+    {
+      "name": "5. GPDMA data alignment",
+      "type": "File",
+      "file": "m2m_data_alignment.md"
+    },
+    {
+      "name": "6. GPDMA triggers",
+      "type": "File",
+      "file": "channel_triggers.md"
+    },
+    {
+      "name": "7. GPDMA burst",
+      "type": "File",
+      "file": "m2m_burst_trigger.md"
+    },
+    {
+      "name": "8. GPDMA block",
+      "type": "File",
+      "file": "block_repeted_trigger.md"
+    },
+    {
+      "name": "9. GPDMA events",
+      "type": "File",
+      "file": "channel_events.md"
+    },
+    {
+      "name": "10. GPDMA linked list",
+      "type": "File",
+      "file": "linked_list.md"
+    },
+    {
+      "name": "11. GPDMA linked list example",
+      "type": "File",
+      "file": "lli_example.md"
+    },
+    {
+      "name": "12. GPDMA LLI description",
+      "type": "File",
+      "file": "lli_hal_description.md"
+    },
+    {
+      "name": "13. LPDMA ADC LPUART",
+      "type": "File",
+      "file": "adc_lpdma_uart_example.md"
     }
   ]
 }
