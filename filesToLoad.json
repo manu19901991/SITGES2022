@@ -90,7 +90,7 @@
   "menuStructure": [
      {
           "type": "Folder",
-          "name": "3. LPBAM",
+          "name": "LPBAM",
           "children": [
             {
               "type": "Folder",
@@ -201,11 +201,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "File",
-          "name": "WORKSHOP PACKAGE MATERIALS",
-          "file": "stm32u5_workshop_package_materials.md"
         }
       ]
     }
