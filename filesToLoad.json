@@ -208,17 +208,4 @@
           "file": "stm32u5_workshop_package_materials.md"
         }
       ]
-    },
-    {
-      "type": "Folder",
-      "name": "AFTER WORKSHOP",
-      "children": [
-        {
-          "type": "File",
-          "name": "Security",
-          "file": "stm32u5_workshop_security.md"
-        }
-      ]
     }
-  
-
