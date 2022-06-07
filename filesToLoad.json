@@ -85,34 +85,10 @@
       "name": " Exercise",
       "path": "/lpbam/handson/step11",
       "file": "handson12.md"
-    },
-    {
-      "path": "/package",
-      "file": "stm32u5_workshop_package_materials.md"
-    },
-    {
-      "path": "/security",
-      "file": "stm32u5_workshop_security.md"
     }
   ],
   "menuStructure": [
-    {
-      "type": "Folder",
-      "name": "BEFORE WORKSHOP",
-      "children": [
-        {
-          "type": "File",
-          "name": "Before live sessions",
-          "file": "file_live.md"
-        },
-        {
-          "type": "File",
-          "name": "Before on-line sessions",
-          "file": "file_online.md"
-        }
-      ]
-    },
-    {
+   {
       "type": "Folder",
       "name": "AT THE WORKSHOP",
       "children": [
