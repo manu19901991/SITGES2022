@@ -14,6 +14,11 @@ Same application can also run on a single queue.
 Our purpose it to show how to handle multiple LPDMA channels and how complexity is reduced thanks to LPBAM tool configurator integrated into STM32CubeMx
 </ainfo>
 
+
+[sourcecode nomal speed ](https://github.com/manu19901991/SITGES2022/blob/main/lpbam/LPBAM_normal_speed.bin)
+[sourcecode 10xspeed]  (https://github.com/manu19901991/SITGES2022/blob/main/lpbam/LPBAM_10x_speed.bin)
+
+
 ---
 
 ![Cubemx start](./img/0001.png)
